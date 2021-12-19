@@ -1,7 +1,7 @@
 id: P010366
 initial_creation_type: ocr
 created_at: 22/03/2020
-last_modified_at: 25/11/2021
+last_modified_at: 2021-12-19 20:46:10.813845
 source_metadata:
   id: bdr:W4CZ58534
   title: ཁམས་ཆེན་དུམ་པ་བཅུ་དྲུག
@@ -103,3 +103,5 @@ source_metadata:
       volume_number: 16
       total_pages: 1086
       base_file: v016.txt
+  access: http://purl.bdrc.io/admindata/AccessOpen
+  restrictedInChina: true
