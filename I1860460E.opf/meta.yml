@@ -1,117 +1,231 @@
 id: I1860460E
+legacy_id: P010366
+ocr_import_info:
+  bdrc_scan_id: W4CZ58534
+  source: bdrc
+  ocr_info:
+    timestamp: '2020-03-22T11:43:35'
+    imagesfolder: images
+  batch_id: batch001
+  software_id: vision
+  expected_default_language: bo
+  op_import_options: {}
+  op_import_version: 1.0.0
+default_language: bo
 source: https://library.bdrc.io
 source_file: null
 initial_creation_type: ocr
-imported: '2020-03-22T11:53:18+00:00'
-last_modified: '2022-06-08T13:03:59.095163+00:00'
-parser: https://github.com/OpenPecha-dev/openpecha-toolkit/blob/231bba39dd1ba393320de82d4d08a604aabe80fc/openpecha/formatters/google_orc.py
+imported: '2022-09-03T20:44:58.948814+00:00'
+last_modified: 2022-09-04 04:50:57.169704
+parser: https://github.com/OpenPecha/Toolkit/blob/7f57883d84bc10351527a49ee6ce970ace404e50/openpecha/formatters/google_ocr.py
 source_metadata:
-  id: bdr:W4CZ58534
-  title: ཁམས་ཆེན་དུམ་པ་བཅུ་དྲུག
-  author: ''
+  id: http://purl.bdrc.io/resource/W4CZ58534
+  status: http://purl.bdrc.io/admindata/StatusReleased
   access: http://purl.bdrc.io/admindata/AccessOpen
-  restrictedInChina: true
-  base:
-    4E68:
-      image_group_id: I4CZ58763
-      title: ''
-      total_pages: 984
-      order: 1
-      base_file: 4E68.txt
-    B804:
-      image_group_id: I4CZ58764
-      title: ''
-      total_pages: 1094
-      order: 2
-      base_file: B804.txt
-    407E:
-      image_group_id: I4CZ58765
-      title: ''
+  geo_restriction:
+  - CN
+  reproduction_of: http://purl.bdrc.io/resource/MW4CZ58534
+  copyright_status: http://purl.bdrc.io/resource/CopyrightPublicDomain
+  title: ཁམས་ཆེན་དུམ་པ་བཅུ་དྲུག
+statistics:
+  ocr_word_mean_confidence_index: 0.6521652463537785
+  ocr_word_median_confidence_index: 0.6899999976158142
+quality: null
+bases:
+  I4CZ58765:
+    source_metadata:
+      id: http://purl.bdrc.io/resource/I4CZ58765
       total_pages: 974
-      order: 3
-      base_file: 407E.txt
-    CE8D:
-      image_group_id: I4CZ58766
-      title: ''
-      total_pages: 1012
-      order: 4
-      base_file: CE8D.txt
-    445A:
-      image_group_id: I4CZ58767
-      title: ''
-      total_pages: 838
-      order: 5
-      base_file: 445A.txt
-    F7A4:
-      image_group_id: I4CZ58768
-      title: ''
-      total_pages: 949
-      order: 6
-      base_file: F7A4.txt
-    A55E:
-      image_group_id: I4CZ58769
-      title: ''
-      total_pages: 930
-      order: 7
-      base_file: A55E.txt
-    46ED:
-      image_group_id: I4CZ58770
-      title: ''
-      total_pages: 1254
-      order: 8
-      base_file: 46ED.txt
-    A8E5:
-      image_group_id: I4CZ58771
-      title: ''
-      total_pages: 958
-      order: 9
-      base_file: A8E5.txt
-    C6A2:
-      image_group_id: I4CZ58772
-      title: ''
-      total_pages: 1072
-      order: 10
-      base_file: C6A2.txt
-    8F1E:
-      image_group_id: I4CZ58773
-      title: ''
+      volume_number: 3
+      volume_pages_bdrc_intro: 2
+    order: 3
+    base_file: I4CZ58765.txt
+    statistics:
+      ocr_word_median_confidence_index: 0.7099999785423279
+      ocr_word_mean_confidence_index: 0.6678917110000038
+    legacy_id: v003
+  I4CZ58773:
+    source_metadata:
+      id: http://purl.bdrc.io/resource/I4CZ58773
       total_pages: 968
-      order: 11
-      base_file: 8F1E.txt
-    '3389':
-      image_group_id: I4CZ58774
-      title: ''
-      total_pages: 1016
-      order: 12
-      base_file: 3389.txt
-    58E4:
-      image_group_id: I4CZ58775
-      title: ''
-      total_pages: 912
-      order: 13
-      base_file: 58E4.txt
-    D873:
-      image_group_id: I4CZ58776
-      title: ''
-      total_pages: 1038
-      order: 14
-      base_file: D873.txt
-    6FFF:
-      image_group_id: I4CZ58777
-      title: ''
-      total_pages: 982
-      order: 15
-      base_file: 6FFF.txt
-    CF6A:
-      image_group_id: I4CZ58778
-      title: ''
+      volume_number: 11
+      volume_pages_bdrc_intro: 2
+    order: 11
+    base_file: I4CZ58773.txt
+    statistics:
+      ocr_word_median_confidence_index: 0.6800000071525574
+      ocr_word_mean_confidence_index: 0.6502918106531422
+    legacy_id: v011
+  I4CZ58764:
+    source_metadata:
+      id: http://purl.bdrc.io/resource/I4CZ58764
+      total_pages: 1094
+      volume_number: 2
+      volume_pages_bdrc_intro: 2
+    order: 2
+    base_file: I4CZ58764.txt
+    statistics:
+      ocr_word_median_confidence_index: 0.7099999785423279
+      ocr_word_mean_confidence_index: 0.6754969672012304
+    legacy_id: v002
+  I4CZ58778:
+    source_metadata:
+      id: http://purl.bdrc.io/resource/I4CZ58778
       total_pages: 1086
-      order: 16
-      base_file: CF6A.txt
-statistics: {}
-quality: {}
+      volume_number: 16
+      volume_pages_bdrc_intro: 2
+    order: 16
+    base_file: I4CZ58778.txt
+    statistics:
+      ocr_word_median_confidence_index: 0.6800000071525574
+      ocr_word_mean_confidence_index: 0.6476973933018948
+    legacy_id: v016
+  I4CZ58763:
+    source_metadata:
+      id: http://purl.bdrc.io/resource/I4CZ58763
+      total_pages: 984
+      volume_number: 1
+      volume_pages_bdrc_intro: 2
+    order: 1
+    base_file: I4CZ58763.txt
+    statistics:
+      ocr_word_median_confidence_index: 0.6800000071525574
+      ocr_word_mean_confidence_index: 0.6591931989624293
+    legacy_id: v001
+  I4CZ58767:
+    source_metadata:
+      id: http://purl.bdrc.io/resource/I4CZ58767
+      total_pages: 838
+      volume_number: 5
+      volume_pages_bdrc_intro: 2
+    order: 5
+    base_file: I4CZ58767.txt
+    statistics:
+      ocr_word_median_confidence_index: 0.699999988079071
+      ocr_word_mean_confidence_index: 0.6675615990963858
+    legacy_id: v005
+  I4CZ58766:
+    source_metadata:
+      id: http://purl.bdrc.io/resource/I4CZ58766
+      total_pages: 1012
+      volume_number: 4
+      volume_pages_bdrc_intro: 2
+    order: 4
+    base_file: I4CZ58766.txt
+    statistics:
+      ocr_word_median_confidence_index: 0.6600000262260437
+      ocr_word_mean_confidence_index: 0.6288432588461117
+    legacy_id: v004
+  I4CZ58774:
+    source_metadata:
+      id: http://purl.bdrc.io/resource/I4CZ58774
+      total_pages: 1016
+      volume_number: 12
+      volume_pages_bdrc_intro: 2
+    order: 12
+    base_file: I4CZ58774.txt
+    statistics:
+      ocr_word_median_confidence_index: 0.6200000047683716
+      ocr_word_mean_confidence_index: 0.605391397467451
+    legacy_id: v012
+  I4CZ58770:
+    source_metadata:
+      id: http://purl.bdrc.io/resource/I4CZ58770
+      total_pages: 1254
+      volume_number: 8
+      volume_pages_bdrc_intro: 2
+    order: 8
+    base_file: I4CZ58770.txt
+    statistics:
+      ocr_word_median_confidence_index: 0.6700000166893005
+      ocr_word_mean_confidence_index: 0.6420899238581446
+    legacy_id: v008
+  I4CZ58771:
+    source_metadata:
+      id: http://purl.bdrc.io/resource/I4CZ58771
+      total_pages: 958
+      volume_number: 9
+      volume_pages_bdrc_intro: 2
+    order: 9
+    base_file: I4CZ58771.txt
+    statistics:
+      ocr_word_median_confidence_index: 0.6700000166893005
+      ocr_word_mean_confidence_index: 0.6420087267839327
+    legacy_id: v009
+  I4CZ58776:
+    source_metadata:
+      id: http://purl.bdrc.io/resource/I4CZ58776
+      total_pages: 1038
+      volume_number: 14
+      volume_pages_bdrc_intro: 2
+    order: 14
+    base_file: I4CZ58776.txt
+    statistics:
+      ocr_word_median_confidence_index: 0.6899999976158142
+      ocr_word_mean_confidence_index: 0.6533222901630095
+    legacy_id: v014
+  I4CZ58772:
+    source_metadata:
+      id: http://purl.bdrc.io/resource/I4CZ58772
+      total_pages: 1072
+      volume_number: 10
+      volume_pages_bdrc_intro: 2
+    order: 10
+    base_file: I4CZ58772.txt
+    statistics:
+      ocr_word_median_confidence_index: 0.7099999785423279
+      ocr_word_mean_confidence_index: 0.6666926254925377
+    legacy_id: v010
+  I4CZ58777:
+    source_metadata:
+      id: http://purl.bdrc.io/resource/I4CZ58777
+      total_pages: 982
+      volume_number: 15
+      volume_pages_bdrc_intro: 2
+    order: 15
+    base_file: I4CZ58777.txt
+    statistics:
+      ocr_word_median_confidence_index: 0.699999988079071
+      ocr_word_mean_confidence_index: 0.6643017527510622
+    legacy_id: v015
+  I4CZ58775:
+    source_metadata:
+      id: http://purl.bdrc.io/resource/I4CZ58775
+      total_pages: 912
+      volume_number: 13
+      volume_pages_bdrc_intro: 2
+    order: 13
+    base_file: I4CZ58775.txt
+    statistics:
+      ocr_word_median_confidence_index: 0.7099999785423279
+      ocr_word_mean_confidence_index: 0.6693796404246639
+    legacy_id: v013
+  I4CZ58768:
+    source_metadata:
+      id: http://purl.bdrc.io/resource/I4CZ58768
+      total_pages: 949
+      volume_number: 6
+      volume_pages_bdrc_intro: 2
+    order: 6
+    base_file: I4CZ58768.txt
+    statistics:
+      ocr_word_median_confidence_index: 0.7099999785423279
+      ocr_word_mean_confidence_index: 0.6695391116544106
+    legacy_id: v006
+  I4CZ58769:
+    source_metadata:
+      id: http://purl.bdrc.io/resource/I4CZ58769
+      total_pages: 930
+      volume_number: 7
+      volume_pages_bdrc_intro: 2
+    order: 7
+    base_file: I4CZ58769.txt
+    statistics:
+      ocr_word_median_confidence_index: 0.6600000262260437
+      ocr_word_mean_confidence_index: 0.6356314404684665
+    legacy_id: v007
 copyright:
-  status: Unknown
-  notice: ''
-  info_url: null
-license: null
+  status: Public domain
+  notice: Public domain
+  info_url: https://creativecommons.org/publicdomain/mark/1.0/
+license: CC0
